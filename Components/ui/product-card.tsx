@@ -1,10 +1,10 @@
 "use client"
 
-import { Product } from "../../types";
+import { Product } from "@/types";
 import Image from "next/image";
 import IconButton from "./icon-button";
 import { Expand, ShoppingCart } from "lucide-react";
-import Currency from "@/components/ui/currency";
+import Currency from "./currency";
 import { useRouter } from "next/navigation";
 import PreviewModal from './../preview-modal';
 import usePreviewModal from "@/hooks/use-preview-modal";
