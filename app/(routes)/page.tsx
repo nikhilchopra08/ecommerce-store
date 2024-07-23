@@ -3,6 +3,7 @@ import getProducts from "@/actions/get-products";
 import Billboard from "@/Components/BiilBoard";
 import ProductList from "@/Components/product-list";
 import Container from "@/Components/ui/container";
+import '../globals.css';
 
 export const revalidate = 0;
 
